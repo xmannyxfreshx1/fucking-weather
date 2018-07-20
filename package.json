@@ -1,0 +1,29 @@
+{
+  "name": "fuckingWeather",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "react-devtools": "react-devtools"
+  },
+  "dependencies": {
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-floating-action": "^1.10.1",
+    "react-native-floating-label-text-input": "^0.1.5",
+    "react-native-geolocation-service": "^1.1.0",
+    "react-native-highlight-words": "^1.0.1",
+    "react-native-vector-icons": "^4.6.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.2.0",
+    "react-devtools": "^3.2.3",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
